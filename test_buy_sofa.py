@@ -98,7 +98,7 @@ class test_custom(unittest.TestCase):
         btn.click()
         time.sleep(3)
         passwd=driver.find_element_by_id("Passwd")
-        passwd.send_keys("Srihari@6278")
+        passwd.send_keys("passwd")
         sign_in=driver.find_element_by_id("signIn")
         sign_in.click()
         time.sleep(70)
